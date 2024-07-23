@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resturant</title>
+    <script src="home.bundle.js"></script>
+    <script src="menu.bundle.js"></script>
+    <script src="contact.bundle.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <button>Home</button>
-            <button>Menu</button>
-            <button>About</button>
+            <ul>
+                <li><button id="home-tab">Home</button></li>
+                <li><button id="menu-tab">Menu</button></li>
+                <li><button id="contact-tab">Contact</button></li>
+            </ul>
         </nav>
     </header>
     <div id="content"></div>
-    <script src="bundle.js"></script>
+    <footer id="footer">
+        <p>&copy; <span id="currentYear"></span> Flavor Haven. All rights reserved.</p>
+    </footer>
+    <script src="index.bundle.js"></script>
 </body>
 </html>
